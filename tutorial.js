@@ -2,12 +2,18 @@
 
 var current;
 var graphs=[
-  {description:"Here is the basic Supply/Demand Model. You can see Price and Quantity on the axis, and the Equilibrium",
-    image: "http://www.economicshelp.org/wp-content/uploads/2012/11/market-equilibrium.png"},
-  {description:"As demand shifts outward, Price increases and Quantity increases. Here we see the inverse realationship of Supply and Demand.",
-    image: "http://www.economicshelp.org/wp-content/uploads/2012/11/excess-supply-move-to-eq.png"},
-  {description:"",
-    image:"http://www.economicshelp.org/wp-content/uploads/2012/11/excess-demand-move-to-eq-id.png"},
+  {
+    description:"",
+    image: "http://www.economicshelp.org/wp-content/uploads/2012/11/market-equilibrium.png",
+  },
+  {
+    description:"",
+    image: "http://www.economicshelp.org/wp-content/uploads/2012/11/excess-supply-move-to-eq.png",
+  },
+  {
+    description:"",
+    image:"http://www.economicshelp.org/wp-content/uploads/2012/11/excess-demand-move-to-eq-id.png",
+  },
     {
       description:"",
       image:"http://www.economicshelp.org/wp-content/uploads/2009/09/increase-demand-id.png",
