@@ -78,3 +78,13 @@ function validateAnswer1(){
    }
 
  }
+ function validateAnswer4(){
+   var getAnswer4 = document.getElementById("question4").value;
+   if (getAnswer4 == "equilibrium" || getAnswer4 == "Equilibrium") {
+      document.getElementById("question4").style.color = "green";
+      document.getElementById("response4").innerHTML = "Correct!";
+   } else {
+      document.getElementById("question4").style.color = "red";
+   }
+
+ }

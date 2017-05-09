@@ -23,7 +23,7 @@ body{
   text-align: center;
   margin-right: 100px;
   color: #0d3540;
-  font-size: 40px;
+  font-size: 45px;
 }
 .images{
   object-position: right;
@@ -86,4 +86,12 @@ input {
    font-size: 20px;
    color: #282D43;
    opacity: 0.5;
+}
+.response4style {
+   font-size: 20px;
+   color: green;
+}
+.quiz{
+  color:#396470;
+  font-size: 18px;
 }
