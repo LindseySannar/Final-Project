@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--Lindsey Sannar-->
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="tutorial.css" rel="stylesheet">
+	<title>Supply and Demand Tutorial</title>
+	<script src="tutorial.js" type="text/javascript">
+	</script>
+</head>
+	<body lang="en-US">
+		<h1 class="title"> Supply and Demand Basics<h1>
+			<div class="main">
+				<p class="heading"> Shifters of Supply: Move the curve Inward/Outward.</p>
+					<p class="shift"> Cost of Inputs</p>
+					<p class="shift"> Technology</p>
+					<p class="shift"> Number of Producers</p>
+					<p class="shift"> Expectations</p>
+					<p class="shift"> Opportunity cost of production</p>
+				<p class="heading"> Shifters of Demand: Move the curve Inward/Outward.</p>
+					<p class="shift"> Number of Consumers</p>
+					<p class="shift"> Tastes and Preferences</p>
+					<p class="shift"> Expectations</p>
+					<p class="shift"> Prices of related goods</p>
+					<p class="shift"> Consumer income</p>
+			<p class="heading"> Supply and Demand have an inverse relationship!</p>
+		</div>
+	<img id="image" class="images">
+  <p id="caption"class="captions"> </p>
+  <button type="button"
+          onclick="shuffleGraphs()"> Got it!
+  </button>
+
+		<button type="button" class = "btn" onclick="nextPage();">
+		Quiz Me!
+		</button>
+		<p class="heading">Practice Questions:</p>
+		<form class="fillin">
+			<p></p>
+Supply and Demand's relationship is <input id="question1" oninput="validateAnswer1();">
+<span class="response1style" id="response1"></span>
+<span class="wrongresponse1style" id="wrongresponse1"></span>
+<p>
+	When Supply exceeds Demand we have a <input id="question2" oninput="validateAnswer2();">
+<span class="response2style" id="response2"></span>
+<span class="wrongresponse2style" id="wrongresponse2"></span>
+</p>
+<p>
+	When Demand exceeds Supply we have a <input id="question3" oninput="validateAnswer3();">
+<span class="response3style" id="response3"></span>
+<span class="wrongresponse3style" id="wrongresponse3"></span>
+</p>
+<p>
+	The point where quantity supplied equals quantity demanded is called the <input id="question4" oninput="validateAnswer4();">
+<span class="response4style" id="response4"></span>
+<span class="wrongresponse4style" id="wrongresponse4"></span>
+</p>
+
+		</form>
+	</body>
+</html>
