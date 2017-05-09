@@ -14,18 +14,18 @@ var graphs=[
     description:"If demand exceeds supply then we have a shortage. Firms will increase prices to reduce demand, until quantity supplied equals quantity demanded.",
     image:"http://www.economicshelp.org/wp-content/uploads/2012/11/excess-demand-move-to-eq-id.png",
   },
-    {
+  {
       description:"When demand shifts out price increases. Quantity demanded also increases. Alternately, if demand decreases price decreases and so does quantity demanded. ",
       image:"http://www.economicshelp.org/wp-content/uploads/2009/09/increase-demand-id.png",
-    },
-    {
-      description:"When supply shifts outward,price decreases which also causes quantity demanded to increase. The opposite is true if supply shifts inward(decreases)",
+  },
+  {
+      description:"When supply shifts outward,price decreases which also causes quantity demanded to increase. The opposite is true if supply shifts inward (decreases).",
       image:"http://www.economicshelp.org/wp-content/uploads/2009/09/increase-supply-inelastic-demand.png",
-    },
-    {
+  },
+  {
       description:"For simplicity, and to avoid ambiguity, we shift only one curve at a time and view its affects on the other.Here it is difficult to see which one moved first.",
       image:"http://www.economicshelp.org/wp-content/uploads/2009/09/fall-in-price-id.png",
-    },
+  },
 ];
 var current;
 function shuffleGraphs()
@@ -45,20 +45,36 @@ function nextPage(){
 function previousPage(){
   window.location.href = 'index.html';
 }
-function calculateResults(){
 
+function beginTutorial(){
+  window.location.href = 'index.html'
 }
-function setCookie(correct, cvalue, exdays) {
-    var d = new Date();
-    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
-    var expires = "expires="+d.toUTCString();
-    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-}
+function validateAnswer1(){
+   var getAnswer1 = document.getElementById("question1").value;
+   if (getAnswer1 == "inverse" || getAnswer1 == "Inverse") {
+      document.getElementById("question1").style.color = "green";
+      document.getElementById("response1").innerHTML = "Correct!";
+   } else {
+      document.getElementById("question1").style.color = "red";
+   }
+ }
+ function validateAnswer2(){
+   var getAnswer2 = document.getElementById("question2").value;
+   if (getAnswer2 == "surplus" || getAnswer2 == "Surplus") {
+      document.getElementById("question2").style.color = "green";
+      document.getElementById("response2").innerHTML = "Correct!";
+   } else {
+      document.getElementById("question2").style.color = "red";
+   }
 
+ }
+ function validateAnswer3(){
+   var getAnswer3 = document.getElementById("question3").value;
+   if (getAnswer3 == "shortage" || getAnswer3 == "Shortage") {
+      document.getElementById("question3").style.color = "green";
+      document.getElementById("response3").innerHTML = "Correct!";
+   } else {
+      document.getElementById("question3").style.color = "red";
+   }
 
-    // figure out how to set and get cookies, which variables to use.
-    // also for the gallery.js figure how to shuffle pictures.
-    //styling for the CSS pages needs to be cohesive...
-    // values for the quiz portion need to be set and collected on the last HTML Page
-//http://www.economicshelp.org/wp-content/uploads/2009/09/increase-demand-id.png
-//http://www.economicshelp.org/wp-content/uploads/2009/09/increase-supply-inelastic-demand.png
+ }
