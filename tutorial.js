@@ -1,34 +1,29 @@
+//images coutesy of http://www.economicshelp.org
 var current;
 var graphs=[
   {
     description:"This illustrates the point where quantity supplied equals quantity demanded. This is called the Equilibrium",
-    image: "http://www.economicshelp.org/wp-content/uploads/2012/11/market-equilibrium.png",\
-    //image courtesy of http://www.economicshelp.org/
+    image: "http://www.economicshelp.org/wp-content/uploads/2012/11/market-equilibrium.png",
   },
   {
     description:"If supply is greater than demand then we have a surplus. Firms will reduce the price until quantity supplied, again, equals quantity demanded.",
     image: "http://www.economicshelp.org/wp-content/uploads/2012/11/excess-supply-move-to-eq.png",
-    //image courtesy of http://www.economicshelp.org/
   },
   {
     description:"If demand exceeds supply then we have a shortage. Firms will increase prices to reduce demand, until quantity supplied equals quantity demanded.",
     image:"http://www.economicshelp.org/wp-content/uploads/2012/11/excess-demand-move-to-eq-id.png",
-    //image courtest of http://www.economicshelp.org/
   },
   {
       description:"When demand shifts out price increases. Quantity demanded also increases. Alternately, if demand decreases price decreases and so does quantity demanded. ",
       image:"http://www.economicshelp.org/wp-content/uploads/2009/09/increase-demand-id.png",
-      //image courtesy of http://www.economicshelp.org/
   },
   {
       description:"When supply shifts outward,price decreases which also causes quantity demanded to increase. The opposite is true if supply shifts inward (decreases).",
       image:"http://www.economicshelp.org/wp-content/uploads/2009/09/increase-supply-inelastic-demand.png",
-      //image courtesy of http://www.economicshelp.org/
   },
   {
       description:"For simplicity, and to avoid ambiguity, we shift only one curve at a time and view its affects on the other.Here it is difficult to see which one moved first.",
       image:"http://www.economicshelp.org/wp-content/uploads/2009/09/fall-in-price-id.png",
-      //image courtest of http://www.economicshelp.org/
   },
 ];
 var current;
